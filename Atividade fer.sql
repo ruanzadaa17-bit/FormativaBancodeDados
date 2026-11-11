@@ -72,11 +72,11 @@ VALUES
 ('Igor Martins', 'CREF-SP-1009', 'Lutas',	'igor.martins@movimentomais.com'),
 ('Juliana Nunes', 'CREF-SP-1010', 'Alongamento',	'juliana.nunes@movimentomais.com');
 
-INSERT INTO Modalidades (Nome, Nivel, DuracaoMinutos, Descricao)
+INSERT INTO Modalidades (NomeModalidade, Nivel, DuracaoMinutos, Descricao)
 VALUES
 ('Musculação', 'Todos',	'60',	'Treino com pesos e equipamentos'),
 ('Pilates', 'Iniciante',	'50',	'Exercícios de equilíbrio e fortalecimento'),
-('Cross Training',	'45',	'Cross Training',	'Circuito de alta intensidade'),
+('Cross Training',	'Intermediário',	'45',	'Circuito de alta intensidade'),
 ('Zumba',	'Todos',	'50',	'Aula de dança com ritmos variados'),
 ('Natação', 'Iniciante',	'45',	'Fundamentos de natação'),
 ('Yoga', 'Todos',	'60',	'Posturas, respiração e concentração'),
