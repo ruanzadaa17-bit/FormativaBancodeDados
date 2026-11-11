@@ -59,7 +59,7 @@ CREATE TABLE Aulas(
     Sala VARCHAR(30) NOT NULL
 );
 
-INSERT INTO Professores (Nome, CREF, Especialidade, Email)
+INSERT INTO Instrutores (Nome, CREF, Especialidade, Email)
 VALUES
 ('André Silva', 'CREF-SP-1001',	'Musculação', 'andre.silva@movimentomais.com'),
 ('Beatriz Costa', 'CREF-SP-1002',	'Pilates',	'beatriz.costa@movimentomais.com'),
@@ -85,7 +85,7 @@ VALUES
 ('Muay Thai', 'Iniciante',	'60',	'Fundamentos da luta e condicionamento'),
 ('Alongamento', 'Todos',	'30',	'Mobilidade e flexibilidade');
 
-SELECT * FROM Professores;
+SELECT * FROM Instrutores;
 SELECT * FROM  Modalidades;
 SELECT * FROM  Clientes;
 SELECT * FROM  Planos;
